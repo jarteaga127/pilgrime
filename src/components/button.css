@@ -1,0 +1,39 @@
+.btn {
+    padding: 8px 16px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.btn--default {
+color: #2C2E3D;
+background-color: #BEEEFC;
+border: 1px solid #BEEEFC;
+transition: 0.3s ease-in-out;
+}
+
+.btn--default:hover {
+    background-color: #7795AF;
+    border: 1px solid #7795AF;
+    color: #f9f9f9;
+      transition: 0.3s ease-in-out;
+}
+
+.btn--outline {
+    color: #BEEEFC;
+    background-color: transparent;
+    border: 1px solid #BEEEFC;
+    transition: 0.3s ease-in-out;
+}
+
+.btn--outline:hover {
+    background-color: #BEEEFC;
+    color: #2C2E3D;
+    transition: 0.3s ease-in-out;
+}
+
+.btn--large {
+    font-size: 31.3px;
+    padding: 12px 24px;
+}

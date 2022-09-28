@@ -1,0 +1,128 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css");
+
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #E7E7E7;
+}
+
+.welcome-sec {
+  width: 100%;
+height: 100vh;
+}
+
+.welcome-img {
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../public/images/DSC00797.JPG");
+background-position: center;
+background-size: cover;
+position: relative;
+}
+
+.welcome-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #F9F9F9;
+}
+
+.welcome-text-02 > h1 {
+  font-size: 95.4px;
+}
+
+.welcome-text-02 > p {
+  font-size: 48.8px;
+}
+
+.section-header > h2 {
+  font-size: 39.1px;
+  padding: 12px 24px;
+}
+
+.search-anime, .signin-page {
+  margin-top: 64px;
+
+}
+
+.search-anime-02 {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.sort-alphabet-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ 
+  margin: 0 auto 128px;
+  width: 65%;
+}
+
+.searchbar-cont {
+  position: relative;
+   align-items: center;
+}
+
+.searchbar-cont > input {
+  width: 626px;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  margin-bottom: 64px;
+  position: relative;
+}
+
+.searchbar-cont > i {
+  position: absolute;
+  margin-left: -54px;
+  padding: 9px 18px;
+}
+
+
+.sort-alphabet-02 {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  gap: 24px;
+
+
+}
+
+.sort-alphabet-02 > li {
+  width: 303px;
+  height: 48px;
+  font-weight: 900;
+  font-size: 20px;
+  color: #f9f9f9;
+  background-color: #7795AF;
+  padding: 8px 16px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+
+}
+
+.sort-alphabet-02 > li:hover {
+  background-color: #BEEEFC;
+  color: #7795AF;
+  box-shadow: 4px 8px 2px #7795AF;
+  transition: 0.3s ease-in-out;
+  
+}
