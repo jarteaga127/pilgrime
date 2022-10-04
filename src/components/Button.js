@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const STYLES = ['btn--default', 'btn--outline'];
 
-const SIZES = ['btn--regular', 'btn--large', 'btn--mobile'];
+const SIZES = ['btn--regular', 'btn--large'];
 
 export const Button = ({
     children,

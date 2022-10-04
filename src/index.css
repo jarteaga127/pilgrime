@@ -44,12 +44,13 @@ position: relative;
   font-size: 48.8px;
 }
 
+
 .section-header > h2 {
   font-size: 39.1px;
   padding: 12px 24px;
 }
 
-.search-anime, .signin-page {
+.search-anime, .signin-page, .search-loca, .accommodations {
   margin-top: 64px;
 
 }
@@ -124,5 +125,24 @@ position: relative;
   color: #7795AF;
   box-shadow: 4px 8px 2px #7795AF;
   transition: 0.3s ease-in-out;
+  
+}
+
+@media (max-width: 1024px) {
+  
+  
+  .welcome-text-02 > h1 {
+    font-size: 48.8px;
+  }
+  
+  .welcome-text-02 > p {
+    font-size: 31.04px;
+  }
+  
+  .section-header > h2 {
+    font-size: 25px;
+    
+  }
+  
   
 }

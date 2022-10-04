@@ -8,8 +8,8 @@ export default function WelcomeSec() {
                     <div className="welcome-text-02">
                     <h1>Pilgrime</h1>
                     <p>Visit the real life locations of your favorite anime!</p>
-                    <div className="welcome-btns">
-                    <Button btnStyle="btn--outline" btnSize="btn--large">Let's Get Started</Button>
+                    <div className="welcome-btns-cont">
+                    <Button btnSize="btn--large" btnStyle="btn--outline">Let's Get Started</Button>
                     </div>
                 </div>
                 </div>

@@ -14,6 +14,7 @@
 }
 
 .newsletter-text, form {
+    width: 100%;
     color: #F9F9F9;
     display: flex;
     flex-direction: column;
@@ -24,6 +25,8 @@
 .newsletter-text > h1 {
     font-size: 61px;
     font-weight: 900;
+    text-align: center;
+    justify-content: center;
 }
 
 .newsletter-text > p {
@@ -31,7 +34,7 @@
 }
 
 .newsletter-email {
-    width: 950px;
+    width: 75%;
     height: 42px;
     padding: 8px 16px;
     color: #67747A;
@@ -86,4 +89,34 @@ font-weight: 900;
     margin-top: 24px;
     padding: 12px 24px;
     font-size: 12px; 
+}
+
+@media (max-width: 1024px) {
+
+    .newsletter-text, form {
+        padding: 32px;
+    }
+
+    .newsletter-text > h1 {
+        font-size: 48px;
+        
+    }
+    
+    .newsletter-text > p {
+        font-size: 20px;
+    }
+
+    .footer-column-01 {
+        flex-wrap: wrap;
+    }
+
+    .footer-column-cont {
+        margin-bottom: 32px;
+        }
+}
+
+@media (max-width: 560px) {
+    .footer-column-01 {
+        display: block;
+    }
 }

@@ -6,6 +6,10 @@
     cursor: pointer;
 }
 
+.button-link {
+    text-decoration: none;
+}
+
 .btn--default {
 color: #2C2E3D;
 background-color: #BEEEFC;
@@ -36,4 +40,11 @@ transition: 0.3s ease-in-out;
 .btn--large {
     font-size: 31.3px;
     padding: 12px 24px;
+}
+
+@media (max-width: 1024px) {
+    .btn {    
+font-size: 16px;
+padding: 12px 24px;
+    }
 }

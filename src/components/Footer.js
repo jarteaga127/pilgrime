@@ -20,16 +20,16 @@ export default function Footer() {
                     <div className="column-header">About Us</div>
                     <ul className="footer-column-02">
                         <li className="footer-link-01">
-                            <Link to="/" className="footer-link-02">What is Pilgrime</Link>
+                            <Link to="/" className="footer-link-02">What is Pilgrime?</Link>
                            </li>
                            <li className="footer-link-01">
-                            <Link to="/" className="footer-link-02">Careers</Link>
+                            <Link to="/" className="footer-link-02">News</Link>
                            </li>
                            <li className="footer-link-01">
                             <Link to="/" className="footer-link-02">Privacy Policy</Link>
                            </li>
                            <li className="footer-link-01">
-                            <Link to="/" className="footer-link-02">About Anime Locations</Link>
+                            <Link to="/" className="footer-link-02">Careers</Link>
                            </li>
                            <li className="footer-link-01">
                             <Link to="/" className="footer-link-02">Company Info</Link>
@@ -43,7 +43,7 @@ export default function Footer() {
                             <Link to="/" className="footer-link-02">FAQs</Link>
                            </li>
                            <li className="footer-link-01">
-                            <Link to="/" className="footer-link-02">What is Pilgrime</Link>
+                            <Link to="/" className="footer-link-02">Locations Update</Link>
                            </li>
                            <li className="footer-link-01">
                             <Link to="/" className="footer-link-02">What is Pilgrime</Link>
