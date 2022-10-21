@@ -6,6 +6,7 @@ import SearchLoca from "./pages/SearchLoca";
 import SignInPage from "./pages/SignInPage";
 import Article01 from "./pages/Article01";
 import Accommodations from "./pages/Accommodations";
+import ErrorPage from "./pages/ErrorPage";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path="/accommodations" element={<Accommodations/>}/>
         <Route path="/sign-up" element={<SignInPage/>}/>
         <Route path="/article-01" element={<Article01/>}/>
+        <Route path="/404-error" element={<ErrorPage/>}/>
       </Routes>
       </BrowserRouter>
     </div>

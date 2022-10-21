@@ -38,7 +38,7 @@ export default function NavBar() {
                     <Link to="/accommodations" className="nav-link" onClick={closeSideMenu}>Accommodations</Link>
                 </li>
                 <li className="nav-link-item">
-                    <Link to="/" className="nav-link" onClick={closeSideMenu}>Deals</Link>
+                    <Link to="/404-error" className="nav-link" onClick={closeSideMenu}>Deals</Link>
                 </li>
                 <li className="nav-link-item">
                     <Link to="/sign-up" className="sign-up-btn" onClick={closeSideMenu}>Sign Up</Link>
