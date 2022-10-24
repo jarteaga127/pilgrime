@@ -1,5 +1,8 @@
-import "./article.css";
+import Footer from "../components/Footer";
+import "../styles/article.css";
 import { Link } from "react-router-dom";
+import anime from "../images/16cc5055.jpg";
+import reallife from "../images/DSC00787.JPG";
 
 
 export default function Article01() {
@@ -10,10 +13,10 @@ export default function Article01() {
             <div className="article-container">
         <div className="article-image-cont">
             <div className="article-img">
-                <img src="images/16cc5055.jpg" alt="scene from an anime" />
+                <img src={anime} alt="scene from an anime" />
             </div>
             <div className="article-img">
-                <img src="images/DSC00787.jpg" alt="scene from an anime" />
+                <img src={reallife} alt="scene from an anime" />
             </div>
         </div>
         <div className="article-text">
@@ -21,10 +24,10 @@ export default function Article01() {
         </div>
         <div className="article-image-cont">
             <div className="article-img">
-                <img src="images/16cc5055.jpg" alt="scene from an anime" />
+                <img src={anime} alt="scene from an anime" />
             </div>
             <div className="article-img">
-                <img src="images/DSC00787.jpg" alt="scene from an anime" />
+                <img src={reallife} alt="scene from an anime" />
             </div>
         </div>
         <div className="article-text">
@@ -32,10 +35,10 @@ export default function Article01() {
         </div>
         <div className="article-image-cont">
             <div className="article-img">
-                <img src="images/16cc5055.jpg" alt="scene from an anime" />
+                <img src={anime} alt="scene from an anime" />
             </div>
             <div className="article-img">
-                <img src="images/DSC00787.jpg" alt="scene from an anime" />
+                <img src={reallife} alt="scene from an anime" />
             </div>
         </div>
         <div className="article-text">
@@ -43,21 +46,23 @@ export default function Article01() {
         </div>
         <div className="article-image-cont">
             <div className="article-img">
-                <img src="images/16cc5055.jpg" alt="scene from an anime" />
+                <img src={anime} alt="scene from an anime" />
             </div>
             <div className="article-img">
-                <img src="images/DSC00787.jpg" alt="scene from an anime" />
+                <img src={reallife} alt="scene from an anime" />
             </div>
         </div>
         <div className="article-text">
             <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.</p>
+        </div>
+        
         </div>
         <div className="button-container">
             <Link to="/" className="home-btn-link">
           <button className="home-btn">Back to Home Page</button>
           </Link>
         </div>
-        </div>
+        <Footer/>
     </div>
    ) 
 }

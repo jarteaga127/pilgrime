@@ -1,5 +1,5 @@
 import { Button } from "../components/Button";
-import "./signin-page.css";
+import "../styles/signin-page.css";
 import Footer from "../components/Footer";
 
 export default function SignInPage() {

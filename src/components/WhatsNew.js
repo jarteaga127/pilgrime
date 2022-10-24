@@ -1,6 +1,6 @@
 import { thumbData } from "./thumbData";
 import Thumbnail from "./Thumbnail";
-import "./whats-new.css";
+import "../styles/whats-new.css";
 
 export default function WhatsNew() {
     return (

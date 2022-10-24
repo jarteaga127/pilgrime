@@ -1,4 +1,4 @@
-import "./button.css";
+import "../styles/button.css";
 import { Link } from "react-router-dom";
 
 const STYLES = ['btn--default', 'btn--outline'];

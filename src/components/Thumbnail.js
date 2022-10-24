@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import "./whats-new.css";
+import "../styles/whats-new.css";
 
 export default function Thumbnail({items}) {
     return (

@@ -1,0 +1,61 @@
+.thumb-group {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(442px, 1fr));
+    grid-gap: 46px;
+    margin: 0 64px 128px;
+}
+
+.hotel-item {
+width: 100%;
+}
+
+.hotel-thumb {
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+background-color: #F9F9F9;
+transition: 0.3s ease-in-out;
+}
+
+.hotel-link {
+    color: #2C2E3D;
+    text-decoration: none;
+}
+
+.thumb-img {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.thumb-img > img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: center center;
+    border-radius: 8px 8px 0 0;
+}
+
+.thumb-text {
+    font-size: 25px;
+    font-weight: 900;
+    padding: 8px 16px 32px;
+}
+
+.button-cont > button {
+    padding: 8px 16px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    color: #2C2E3D;
+background-color: #BEEEFC;
+transition: 0.3s ease-in-out;
+cursor: pointer;
+}
+
+.button-cont > button:hover {
+    background-color: #7795AF;
+    color: #f9f9f9;
+      transition: 0.3s ease-in-out;
+}

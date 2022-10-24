@@ -1,3 +1,8 @@
+import HotelThumb from "../components/HotelThumb";
+import { HotelData } from "../data/HotelData";
+import "../styles/accommodations.css";
+import Footer from "../components/Footer";
+
 export default function Accommodations() {
     return (
         <div className="accommodations">
@@ -7,10 +12,11 @@ export default function Accommodations() {
             <div className="thumb-container">
             <div className="thumb-wrapper">
                 <ul className="thumb-group">
-                    
+                    <HotelThumb hotels={HotelData}/>
                 </ul>
             </div>
         </div>
+        <Footer/>
         </div>
     )
 }

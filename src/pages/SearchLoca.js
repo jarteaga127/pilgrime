@@ -1,3 +1,5 @@
+import Footer from "../components/Footer";
+
 export default function SearchLoca() {
     return (
         <div className="search-loca">
@@ -17,6 +19,7 @@ export default function SearchLoca() {
     <li className="location-item">Okinawa</li>
 </ul>
 </div>
+<Footer/>
         </div>
     )
 }

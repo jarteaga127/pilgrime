@@ -1,0 +1,122 @@
+.footer-main {
+    width: 100%;
+    background-color: #2C2E3D;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.newsletter-signup {
+    margin-top: 120px;
+    
+    
+}
+
+.newsletter-text, form {
+    width: 100%;
+    color: #F9F9F9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.newsletter-text > h1 {
+    font-size: 61px;
+    font-weight: 900;
+    text-align: center;
+    justify-content: center;
+}
+
+.newsletter-text > p {
+    font-size: 31.3px;
+}
+
+.newsletter-email {
+    width: 75%;
+    height: 42px;
+    padding: 8px 16px;
+    color: #67747A;
+    border: none;
+    border-radius: 8px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.footer-column-01 {
+    display: flex;
+    gap: 124px;
+    margin-top: 124px;
+}
+
+.footer-column-cont {
+color: #F9F9F9;
+}
+
+.column-header {
+    padding: 8px 16px;
+font-weight: 900;
+}
+
+.footer-column-02 {
+    list-style-type: none;
+}
+
+.footer-link-01 {
+    padding: 8px 16px;
+}
+
+.footer-link-02 {
+    color: #F9F9F9;
+    display: flex;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+    align-items: center;
+}
+
+.footer-link-02 > i {
+    font-size: 36px;
+    margin-right: 16px;
+}
+
+.footer-link-02:hover {
+    color: #BEEEFC;
+}
+
+.copyright {
+    color: #F9F9F9;
+    margin-top: 24px;
+    padding: 12px 24px;
+    font-size: 12px; 
+}
+
+@media (max-width: 1024px) {
+
+    .newsletter-text, form {
+        padding: 32px;
+    }
+
+    .newsletter-text > h1 {
+        font-size: 48px;
+        
+    }
+    
+    .newsletter-text > p {
+        font-size: 20px;
+    }
+
+    .footer-column-01 {
+        flex-wrap: wrap;
+    }
+
+    .footer-column-cont {
+        margin-bottom: 32px;
+        }
+}
+
+@media (max-width: 560px) {
+    .footer-column-01 {
+        display: block;
+    }
+}
